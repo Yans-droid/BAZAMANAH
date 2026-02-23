@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import KalkulatorZakat from "./components/KalkulatorZakat";
 import ProgramSection from "./components/ProgramSection";
 import Footer from "./components/Footer";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   // State untuk kontrol muncul/tidaknya kalkulator (modal)
@@ -15,6 +16,7 @@ function App() {
       <Navbar onOpenCalc={() => setIsCalcOpen(true)} />
 
       <Hero />
+      <AboutUs />
       <ProgramSection />
       <Footer />
 

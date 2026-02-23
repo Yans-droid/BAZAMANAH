@@ -20,6 +20,10 @@ const Navbar = ({ onOpenCalc }) => {
           >
             Kalkulator
           </button>
+
+          <a href="#about" className="hover:text-emerald-600 transition">
+            Tentang Kami
+          </a>
           <a href="#program" className="hover:text-emerald-600 transition">
             Program
           </a>
