@@ -1,16 +1,30 @@
-# React + Vite
+# 🌙 BAZAMANAH - Landing Page Zakat Modern
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Built with React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
+[![Built with Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+[![Deployed on Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://vercel.com/)
 
-Currently, two official plugins are available:
+**BAZAMANAH** adalah platform digital pengelolaan zakat, infaq, dan sedekah yang dirancang untuk memenuhi tugas mata kuliah **Agama Islam**. Project ini menggabungkan nilai-nilai spiritual dengan teknologi frontend modern.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fitur Unggulan
 
-## React Compiler
+- **Kalkulator Zakat Real-time:** Perhitungan otomatis dengan fitur auto-format mata uang (IDR) menggunakan Regex.
+- **Responsive Design:** Tampilan optimal di berbagai perangkat (Mobile, Tablet, Desktop) berkat Tailwind CSS v4.
+- **Smooth Navigation:** Pengalaman pengguna yang halus dengan fitur _smooth scrolling_ pada anchor links.
+- **Modern UI Components:** Menggunakan icon set dari `lucide-react` untuk visual yang tajam dan minimalis.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework:** React 19
+- **Build Tool:** Vite 8
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **Deployment:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Cara Menjalankan Project di Lokal
+
+1. Clone repository ini:
+   ```bash
+   git clone [https://github.com/Yans-droid/BAZAMANAH.git](https://github.com/Yans-droid/BAZAMANAH.git)
+   ```
