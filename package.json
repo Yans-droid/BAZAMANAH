@@ -31,5 +31,18 @@
   },
   "overrides": {
     "vite": "^8.0.0-beta.13"
-  }
+  },
+  "description": "[![Built with React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/) [![Built with Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite)](https://vitejs.dev/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?logo=tailwindcss)](https://tailwindcss.com/) [![Deployed on Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://vercel.com/)",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yans-droid/BAZAMANAH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yans-droid/BAZAMANAH/issues"
+  },
+  "homepage": "https://github.com/Yans-droid/BAZAMANAH#readme"
 }
