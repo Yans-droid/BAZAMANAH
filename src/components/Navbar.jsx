@@ -24,8 +24,14 @@ const Navbar = ({ onOpenCalc }) => {
           <a href="#about" className="hover:text-emerald-600 transition">
             Tentang Kami
           </a>
+          <a href="#artikel" className="hover:text-emerald-600 transition">
+            Kisah & Dalil
+          </a>
           <a href="#program" className="hover:text-emerald-600 transition">
             Program
+          </a>
+          <a href="#biodata" className="hover:text-emerald-600 transition">
+            Biodata
           </a>
         </div>
 

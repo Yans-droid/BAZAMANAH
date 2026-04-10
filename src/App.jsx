@@ -5,6 +5,8 @@ import KalkulatorZakat from "./components/KalkulatorZakat";
 import ProgramSection from "./components/ProgramSection";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
+import Biodata from "./components/Biodata";
+import ArtikelAmanah from "./components/ArtikelAmanah";
 
 function App() {
   // State untuk kontrol muncul/tidaknya kalkulator (modal)
@@ -17,7 +19,10 @@ function App() {
 
       <Hero />
       <AboutUs />
+      <ArtikelAmanah />
       <ProgramSection />
+      <Biodata />
+
       <Footer />
 
       {/* MODAL KALKULATOR: Hanya muncul kalau isCalcOpen === true */}

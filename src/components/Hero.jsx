@@ -36,7 +36,14 @@ const Hero = () => {
             <button className="bg-emerald-500 hover:bg-emerald-400 text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-xl shadow-emerald-900/50 transition-all">
               Lihat Program
             </button>
-            <button className="bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-md px-10 py-4 rounded-2xl font-bold text-lg transition-all">
+            <button
+              onClick={() =>
+                document
+                  .getElementById("about")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+              className="bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-md px-10 py-4 rounded-2xl font-bold text-lg transition-all"
+            >
               Tentang Kami
             </button>
           </div>
